@@ -21,7 +21,7 @@ class App extends Component {
           </a>
         </header>
 	<p className="App-Intro">
-	 Hi There!
+	 I was change on the feature branch!
 	</p>
       </div>
     );
