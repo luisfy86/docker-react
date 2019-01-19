@@ -6,7 +6,7 @@ before_install:
         - docker build -t luisfy/docker-react .
 
 script:
-        - docker run luisfy/docker-react npm run start
+        - docker run luisfy/docker-react
 
 deploy:
         provider: elasticbeanstalk
