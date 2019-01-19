@@ -5,9 +5,6 @@ services:
 before_install:
         - docker build -t luisfy/docker-react .
 
-script:
-        - docker run luisfy/docker-react
-
 deploy:
         provider: elasticbeanstalk
         region: "us-east-2"
